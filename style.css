@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MyFont', sans-serif;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('./fonts/Optimist\ Normal.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-contents {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.content-links, .nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.content-links a, .nav-links a{
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo img {
+    width: 6rem;
+}
+
+.hero-page {
+    position: relative;
+    height: 100vh;
+}
+
+.video-bckg video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background-color: red;
+}
+
+.bckg-text {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    gap: 30px;
+}
+
+.bckg-text h1 {
+    font-size: 48px;
+    width: 50%;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.bckg-text .hero-btn {
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: #139dec;
+    border: none;
+    border-radius: 20px;
+    color: #ffff;
+    font-size: 18px;
+}
+
+.catch-up {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
