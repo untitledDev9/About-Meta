@@ -16,6 +16,7 @@
 
 .big-container {
     overflow: hidden;
+    width: 100%;
 }
   
 /* navbar style */
@@ -221,7 +222,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    height: 500px; 
+    height: 700px; 
     padding: 40px;
 }
   
@@ -230,7 +231,8 @@
     flex: 1;
     height: 100%;
     border-radius: 20px;
-
+    max-width:700px ;
+    max-height: 500px;
 }
   
 .dev img {
@@ -242,22 +244,115 @@
 
 .dev {
     height: 100%;
-    overflow: hidden;           /* Keep it here to crop the main image */
+    overflow: hidden;  
     border-radius: 20px;
 }
 
 .pos-img {
     position: absolute;
-    bottom: -60px;   /* stick the whole container to the bottom */
+    bottom: -60px;  
     left: 160px;
     width: 100%;
-    height: auto; /* allow the image to size based on content */
+    height: auto; 
     overflow: none;
-  }
+}
   
-  .pos-img img {
+.pos-img img {
     width: 35%;
-  }
+}
   
+.device-bottom {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.shop-card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+    h1 {
+        font-size: 36px;
+        color: rgb(28, 43, 51);
+        font-weight: 400;
+    }
+
+    p {
+        color: rgba(70, 90, 105);
+        line-height: 24px;
+        font-size: 16px;
+        width: 55%;
+    }
+
+    button {
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 25px;
+        background-color: #0061DA;
+    }
+}
+
+/* Product section */
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.product-header h1 {
+    font-size: 48px;
+    line-height: 53px;
+    font-weight: 500;
+    color: rgb(28, 43, 51);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product-ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        background-color:#0061DA;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        padding: 15px 35px;
+        border-radius: 25px;
+        border: none;
+    }
+}
+
+.help-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0;
+
+    a {
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        color: rgb(22,34,41);
+    }
+}
+
 
   
