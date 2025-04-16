@@ -527,9 +527,7 @@ button {
 }
 
 .footer-col {
-    margin-bottom: 50px;
-
-    
+    margin-bottom: 50px; 
 
     .footer-head1, .footer-head2, .footer-head3{
         font-size: 14px;
@@ -916,6 +914,38 @@ button {
         
         }
     }
+
+    /* footer */
+
+    .big-footer {
+        padding: 60px 0;
+        flex-wrap: wrap;
+    }
+
+    .footer-col {
+        margin-bottom: 50px; 
+    
+        .footer-head1, .footer-head2, .footer-head3{
+            font-size: 14px;
+            color: rgb(28, 43, 51);
+            line-height: 20px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+    
+        .footer-text1, .footer-text2, .footer-text3{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color: rgb(70,90,105);
+            margin-bottom: 30px;
+        }
+    }
+
+    .icon-links, . hide {
+        display: none;
+    }
+    
     
 
 }
