@@ -226,6 +226,105 @@ button {
 }
 
 /* device style */
+.device-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.device-text h1 {
+    font-size: 48px;
+    line-height: 53px;
+    color: rgb(28, 43, 51);
+    text-align: center;
+    width: 50%;
+    margin: 80px auto;
+    font-weight: 500;
+}
+
+.card-1 {
+    width: 675px;
+    height: 500px;
+    border-radius: 20px;
+    background: url(/images/meta\ man\ image.jpg);
+    background-size: cover;
+}
+.card-2 {
+    width: 675px;
+    height: 500px;
+    border-radius: 20px;
+    background: url(/images/excited-woman-testing-vr-headset.jpg);
+    background-size: cover;
+}
+
+.device-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.device-absolute {
+    position: absolute;
+    bottom: 30%;
+    left: 28%;
+}
+
+.shade {
+    width: 85%;
+}
+
+.virtual-R {
+    width: 65%;
+}
+
+.virtual {
+    bottom: 26%;
+    left: 28%;
+}
+
+.device-card-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    gap: 15px;
+
+    p {
+        width: 75%;
+        line-height: 25px;
+        margin: 0 auto;
+        font-size: 16px;
+        font-weight: 24px;
+        color: rgb(70, 90, 105);
+    }
+
+    button {
+        padding: 10px 30px;
+        width: max-content;
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+}
+
+.device-card-content {
+    width: 50%;
+    margin-top: 110px;
+}
+
+.device-card-content h1 {
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: rgb(28, 43, 51);
+}
+
+.device-card-content p {
+  
+}
 
 
 /* Product section */
@@ -505,8 +604,14 @@ button {
 
 /* mobile view */
 @media (max-width: 500px){
+
+    /* navbar */
     .content-links, .nav-links, .blk{
         display: none;
+    }
+
+    .nav-bar {
+        padding: 15px;
     }
 
     .menu {
@@ -517,6 +622,7 @@ button {
         gap: 20px;
     }
 
+    /* hero section */
     .bckg-text {
         background: rgba(0, 0, 0, 0.4);
         gap: 20px;
@@ -534,6 +640,8 @@ button {
         border-radius: 20px;
         font-size: 18px;
     }
+
+    /* catch section */
 
     .catch-up-text h1 {
         font-size: 32px;
@@ -576,6 +684,76 @@ button {
         width: 300px;
     }
     
+    /* device section */
+
+    .device-text h1 {
+        font-size: 32px;
+        line-height: 35px;
+        width: 100%;
+        margin: 80px auto;
+    }
+
+    .card-1 {
+        width: 435px;
+        height: 350px;
+        border-radius: 0;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .card-2 {
+        width: 435px;
+        height: 350px;
+        border-radius: 0;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+
+    .device-absolute {
+        bottom: 40%;
+        left: 15%;
+    }
+    
+    .shade {
+        width: 60%;
+    }
+    
+    .virtual-R {
+        width: 50%;
+    }
+    
+    .virtual {
+        bottom: 39%;
+        left: 10%;
+    }
+
+    .device-card-content {
+        margin-top: 90px;
+        gap: 15px;
+    
+        p {
+            width: 90%;
+            line-height: 25px;
+            margin: 0 auto;
+        }
+    
+        button {
+            padding: 10px 30px;
+            width: max-content;
+            margin: 0 auto;
+            border-radius: 30px;
+        }
+    }
+
+    .device-card-content {
+        width: 100%;
+        margin: 80px auto;
+    }
+    
+    .device-card-content h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
     
 }
 
