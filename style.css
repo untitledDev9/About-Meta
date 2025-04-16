@@ -62,7 +62,7 @@ button {
 }
 
 .logo img {
-    width: 6rem;
+    width: 5rem;
 }
 
 .hero-page {
@@ -115,7 +115,7 @@ button {
     font-family: 'Segoe UI', sans-serif;
     background-color: #fff;
     text-align: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
   
 .catch-up-text h1 {
@@ -449,3 +449,96 @@ button {
     }
 }
 
+/* leadership */
+
+.leader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 140px auto;
+    gap: 7rem;
+}
+
+.leader-image {
+    width: 580px;
+    height: 580px;
+    overflow: hidden;
+    border-radius: 30px;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        transform: scaleX(-1);
+    
+    }
+}
+
+.leader-text {
+    flex: 1;
+
+    h1 {
+        font-size: 36px;
+        color: rgb(28,43,51);
+        line-height: 40px;
+       width: 500;
+    }
+
+    p {
+        font-size: 18px;
+        color: rgb(28,43,51);
+        line-height: 27px;
+        width: 400;
+        margin: 20px auto;
+    }
+
+    button {
+        padding: 15px 20px;
+        border-radius: 25px;
+    }
+}
+
+
+/* big footer */
+
+.big-footer {
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+}
+
+.footer-col {
+    background-color: green;
+    
+
+    .footer-head1, .footer-head2, .footer-head3{
+        font-size: 14px;
+        color: rgb(28, 43, 51);
+        line-height: 20px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    .footer-text1, .footer-text2, .footer-text3{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgb(70,90,105);
+        margin-bottom: 8px;
+    }
+}
+
+
+.icon-links {
+    img {
+        width: 6.5rem;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+.font-svg {
+    width: 30px;
+}
